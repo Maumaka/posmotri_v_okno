@@ -126,7 +126,7 @@ ol {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
-  font-size: 18px;/*общее для: Утро, день, ночь*/
+  font-size: 18px;
 }
 
 .search-form__label:hover > .search-form__label-text {
