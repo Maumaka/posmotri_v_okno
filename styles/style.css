@@ -140,7 +140,6 @@ ol {
 
 .content__details {
   width: 399px;
-  min-height: 534px;
   padding-top: 3px;
 }
 
@@ -180,6 +179,24 @@ ol {
   font-size: 18px;
   text-align: center;
   appearance: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+}
+
+.button:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.button:active {
+  background: #545050;
 }
 
 .title {
